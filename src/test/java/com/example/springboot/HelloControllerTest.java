@@ -21,7 +21,7 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        assertEquals("Greetings from Spring Boot, Welcome to TAP VMWare POC - Evan", controller.index());
+        assertEquals("Tanzu Application Platform (TAP) DeployMaster: Automatizza il Tuo Percorso da Codice a Kubernetes - Evan,Nicola", controller.index());
 
         mockMvc
             .perform(get("/"))
